@@ -9,8 +9,6 @@ sudo apt install cmake -y
 sleep 5
 sudo apt install python3-pip -y
 sleep 5
-sudo apt-get install vim
-sleep 5
 cd /home
 sleep 1
 mkdir block

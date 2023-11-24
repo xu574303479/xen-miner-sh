@@ -22,7 +22,9 @@
 -
   ```
   cd /home/block/XENGPUMiner
+  ```
 
+  ```
   sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0x9bac6b1d00976eaacbe47031245a14e6d43f6d16/g' config.conf
 
   ```
@@ -65,6 +67,12 @@
   ...
   ```
 
+  ```
+  # 查看进程
+  ps -aux|grep python3
+  
+  ```
+
 5.问题
 -
   ```
@@ -74,6 +82,8 @@
   
   # 安装 CUDA
   https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_network
+  
+  
   
   ```
 
